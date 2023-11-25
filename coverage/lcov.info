@@ -3,8 +3,8 @@ SF:utils/escape.js
 FN:6,htmlEscape
 FNF:1
 FNH:1
-FNDA:1,htmlEscape
-DA:7,1
+FNDA:5,htmlEscape
+DA:7,5
 DA:15,1
 LF:2
 LH:2

@@ -4,7 +4,7 @@
  * @returns escaped string
  */
 function htmlEscape(str) {
-  return str.replace(/&/g, "&amp;")
+  return str.replace(/&(?!amp;)/g, "&amp;")
             .replace(/</g, "&lt;")
             .replace(/>/g, "&gt;")
             .replace(/"/g, "&quot;")

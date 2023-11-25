@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1700917414711" clover="3.2.0">
-  <project timestamp="1700917414711" name="All files">
+<coverage generated="1700918016068" clover="3.2.0">
+  <project timestamp="1700918016068" name="All files">
     <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
     <file name="escape.js" path="/home/nick/projects/trash-panda/utils/escape.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="7" count="1" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
       <line num="15" count="1" type="stmt"/>
     </file>
   </project>
