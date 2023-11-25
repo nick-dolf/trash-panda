@@ -1,1 +1,3 @@
-console.log("hello world")
+const escape = require("./utils/escape")
+
+console.log(escape.htmlEscape(""))
