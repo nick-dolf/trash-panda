@@ -3,7 +3,7 @@
  * @param {String} str - to be escaped 
  * @returns escaped string
  */
-function htmlEscape(str) {
+function html(str) {
   return str.replace(/&(?!amp;)/g, "&amp;")
             .replace(/</g, "&lt;")
             .replace(/>/g, "&gt;")
@@ -11,5 +11,8 @@ function htmlEscape(str) {
             .replace(/'/g, "&#39;");        
 }
 
+function regex(str) {
+  return str.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
+}
 
-module.exports = { htmlEscape }
+module.exports = { html, regex }
