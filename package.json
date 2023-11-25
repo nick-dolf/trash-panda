@@ -1,0 +1,23 @@
+{
+  "name": "trash-panda",
+  "version": "0.0.1",
+  "description": "Another templating engine",
+  "main": "trash-panda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-dolf/trash-panda.git"
+  },
+  "keywords": [
+    "template",
+    "views"
+  ],
+  "author": "Nick Dolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nick-dolf/trash-panda/issues"
+  },
+  "homepage": "https://github.com/nick-dolf/trash-panda#readme"
+}
